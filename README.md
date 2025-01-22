@@ -25,9 +25,6 @@
       <td align=center><b>원유형</b></td>
       <td align=center><b>이서영</b></td>
       <td align=center><b>조현정</b></td>
-      <td align=center><b>권석현</b></td>
-      <td align=center><b>정소열</b></td>
-      <td align=center><b>기한정</b></td>
     </tr>
     <tr>
       <td align="center">
@@ -42,26 +39,45 @@
       </td>
       <td align="center">
         <img src="https://github.com/user-attachments/assets/d6cdc8f7-0e62-4923-adf2-8431355cbca0"width="170px; alt=""/>
+      </td>     
+    </tr>
+    <tr>
+     <td align="center"> 팀장 </td>
+     <td align="center"> 화면설계 </td>
+     <td align="center"> Streamlit </td>
+    </tr>
+    
+  </tbody>
+</table>
+<table align=center>
+  <tbody>
+    <tr>
+      <td align=center><b>권석현</b></td>
+      <td align=center><b>정소열</b></td>
+      <td align=center><b>기한정</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div>
+          <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a"width="180px; alt="/>
+        </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a"width="170px"height ="110px; alt=""/>
+        <div>
+          <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13"width="180px; alt="/>
+        </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13"width="170px; alt=""/>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/1a8c3bc8-fa0d-4c5d-9317-a1355490912a"width="170px; alt=""/>
+        <div>
+          <img src=""width="180px; alt=""/>
+        </div>
       </td>
     </tr>
     <tr>
-     <td> 팀장 </td>
-     <td> 화면설계 </td>
-     <td> Streamlit </td>
-     <td> ERD,DB</td>
-     <td> Streamlit </td>
-     <td> crawling </td>
+     <td align="center"> ERD,DB</td>
+     <td align="center"> Streamlit </td>
+     <td align="center"> crawling </td>
     </tr>
-    
   </tbody>
 </table>
 <br><br><br>
@@ -109,3 +125,21 @@
 <img src=""/>
 <br><br><br>
 <img src=""/>
+
+
+# 회고
+-
+<br><br>
+
+
+원유형 : 
+
+이서영 : 
+
+정소열 : 
+
+권석현 :
+
+조현정 :
+
+기한정 : 
