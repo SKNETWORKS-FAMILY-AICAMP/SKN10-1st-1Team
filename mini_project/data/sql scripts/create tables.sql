@@ -35,4 +35,5 @@ CREATE TABLE 종합관리 (
     등록대수 INT NOT NULL,                  -- 등록대수
     FOREIGN KEY (차종ID) REFERENCES 차종등록현황(차종ID) ON DELETE CASCADE,
     FOREIGN KEY (지역ID) REFERENCES 지역등록현황(지역ID) ON DELETE CASCADE,
-    UN
+    UNIQUE KEY (차종ID, 지역ID, 등록연도)   -- 복합 고유 키
+);
