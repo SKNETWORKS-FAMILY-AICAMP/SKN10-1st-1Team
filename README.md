@@ -1,12 +1,23 @@
 
-전국 자동차 등록 현황 및 기업 FAQ 조회 시스템
-=
+# SKN10 - 1st - 1Team
+<br>
+<br>
+<br>
 
-프로젝트 소개
+
+# 프로젝트 소개
 -
 
+### 프로젝트 명 : 전국 자동차 등록 현황 및 기업 FAQ 조회 시스템
 
-팀 소개
+### 프로젝트 소개 : 
+
+### 프로젝트 ppt : 
+
+
+<br><br><br>
+
+# 팀 소개
 -
 <table align=center>
   <tbody>
@@ -26,20 +37,20 @@
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/a48bc21e-8ee9-433d-8d22-c36d6b9f407b"width="180px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/a48bc21e-8ee9-433d-8d22-c36d6b9f407b"width="170px; alt=""/>
         </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/d6cdc8f7-0e62-4923-adf2-8431355cbca0"width="180px; alt=""/>
+        <img src="https://github.com/user-attachments/assets/d6cdc8f7-0e62-4923-adf2-8431355cbca0"width="170px; alt=""/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a"width="180px; alt=""/>
+        <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a"width="170px"height ="110px; alt=""/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13"width="180px; alt=""/>
+        <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13"width="170px; alt=""/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/1a8c3bc8-fa0d-4c5d-9317-a1355490912a"width="180px; alt=""/>
+        <img src="https://github.com/user-attachments/assets/1a8c3bc8-fa0d-4c5d-9317-a1355490912a"width="170px; alt=""/>
       </td>
     </tr>
     <tr>
@@ -56,7 +67,7 @@
 <br><br><br>
 
 
-기술 스택
+# 기술 스택
 - 
 
 <table>
@@ -73,14 +84,28 @@
 
 
 
-ERD
+# ERD
 -
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/e9768c03-d588-4c1c-bef1-a21aebf4ddec"/>
+
 <br><br><br>
 
 
-화면
+# 화면 설계서
+-
+
+<img src="https://github.com/user-attachments/assets/7ea07c72-9147-4d16-b4a8-4e4d70b7db9e"/>
+<br><br><br>
+<img src="https://github.com/user-attachments/assets/b2d11e5a-a1f0-4c3e-8a88-108aa891826d"/>
+<br><br><br>
+<img src="https://github.com/user-attachments/assets/9ecf6c9c-a381-4572-8809-c9d3504137f9"/>
+
+<br><br><br>
+
+# 실제 화면
 -
 <img src=""/>
+<br><br><br>
+<img src=""/>
+<br><br><br>
 <img src=""/>
