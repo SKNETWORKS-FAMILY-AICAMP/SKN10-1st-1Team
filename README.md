@@ -19,26 +19,26 @@
 
 # 팀 소개
 -
-<table align=center>
+<table align="center">
   <tbody>
     <tr>
-      <td align=center><b>원유형</b></td>
-      <td align=center><b>이서영</b></td>
-      <td align=center><b>조현정</b></td>
+      <td align="center"><b>원유형</b></td>
+      <td align="center"><b>이서영</b></td>
+      <td align="center"><b>조현정</b></td>
     </tr>
     <tr>
       <td align="center">
         <div>
-          <img src=""width="180px; alt=""/>
+          <img src=""width="180px";/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/a48bc21e-8ee9-433d-8d22-c36d6b9f407b"width="170px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/a48bc21e-8ee9-433d-8d22-c36d6b9f407b" width="170px" />
         </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/d6cdc8f7-0e62-4923-adf2-8431355cbca0"width="170px; alt=""/>
+        <img src="https://github.com/user-attachments/assets/d6cdc8f7-0e62-4923-adf2-8431355cbca0" width="170px"/>
       </td>     
     </tr>
     <tr>
@@ -49,27 +49,27 @@
     
   </tbody>
 </table>
-<table align=center>
+<table align="center">
   <tbody>
     <tr>
-      <td align=center><b>권석현</b></td>
-      <td align=center><b>정소열</b></td>
-      <td align=center><b>기한정</b></td>
+      <td align="center"><b>권석현</b></td>
+      <td align="center"><b>정소열</b></td>
+      <td align="center"><b>기한정</b></td>
     </tr>
     <tr>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a"width="180px; alt="/>
+          <img src="https://github.com/user-attachments/assets/eae630f3-986f-4683-8817-f5d28244935a" width="180px" height="200px"/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13"width="180px; alt="/>
+          <img src="https://github.com/user-attachments/assets/f51a2779-383a-4aa5-b8d2-bf0a6c79ac13" width="180px"/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src=""width="180px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/cf8286e8-6e9a-4ae0-b924-569a19db2b46"width="180px"/>
         </div>
       </td>
     </tr>
