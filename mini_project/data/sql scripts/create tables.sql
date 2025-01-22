@@ -4,6 +4,7 @@ Create user 'dreamteam'@'%'
 
 Select * from user;
 
+drop database 자동차현황DB;
 CREATE DATABASE 자동차현황DB;
 
 grant all privileges
@@ -14,14 +15,14 @@ USE 자동차현황DB;
 
 CREATE TABLE 차종등록현황 (
     차종ID INT AUTO_INCREMENT PRIMARY KEY, -- 고유 식별자
-    차종명 VARCHAR(20) NOT NULL,
+    차종명 VARCHAR(50) NOT NULL,
     등록연도 INT NOT NULL,              -- VARCHAR보다 INT로 설정해야지 연산 더 빠름
     등록대수 INT NOT NULL
 );
 
 CREATE TABLE 지역등록현황 (
     지역ID INT AUTO_INCREMENT PRIMARY KEY, -- 지역 고유 ID
-    지역명 VARCHAR(20) NOT NULL,    -- 지역명 (서울, 부산 등)
+    지역명 VARCHAR(50) NOT NULL,    -- 지역명 (서울, 부산 등)
     등록연도 INT NOT NULL,
     등록대수 INT NOT NULL
 );
@@ -36,4 +37,11 @@ CREATE TABLE 종합관리 (
     FOREIGN KEY (차종ID) REFERENCES 차종등록현황(차종ID) ON DELETE CASCADE,
     FOREIGN KEY (지역ID) REFERENCES 지역등록현황(지역ID) ON DELETE CASCADE,
     UNIQUE KEY (차종ID, 지역ID, 등록연도)   -- 복합 고유 키
+);
+
+CREATE TABLE faq (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- Auto-increment primary key
+    category VARCHAR(20) NOT NULL,
+    question TEXT NOT NULL,             -- Question column
+    answer TEXT NOT NULL                -- Answer column
 );
