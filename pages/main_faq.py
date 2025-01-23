@@ -23,40 +23,46 @@ query = st.text_input('검색어를 입력하세요:')
 
 if st.button('검색'):
     if query:
-        results = Faq_Query(search_word=query).select_query_faq_search()
+        results = Faq_Query().select_query_faq_search(search_word=query)
         if results:
-            st.subheader('검색결과: ')
             for result in results:
-                st.write(result)
+                # 카테고리,질문과 답변을 각각 보여주는 위젯
+                question = result[2]
+                answer = result[3]
+                with st.expander(question):
+                    st.write(answer)
         else:
             st.write('검색결과가 없습니다.')
     else:
         st.write('검색어를 입력해주세요.')
 
+
 # 3.카테고리 탭 조회
 # 4.카테고리별 질의응답
 ## 4-1.카테고리별로 탭 나열 (카테고리: )
-## 4-2.질문 ( > 화살표 누르면 화살표가 밑으로 내려가면서 답변 보임 )
-## 4-3.질문별로 답변 보임
+category_faq_list = Faq_Query().select_query_faq()
 
-tabs = st.tabs(['cat1','cat2','cat3']) # result에서 tab부분만 뽑기
-faqs = {
-    "카테고리1": [
-        {"질문": "질문 1-1", "답변": "답변 1-1입니다."},
-        {"질문": "질문 1-2", "답변": "답변 1-2입니다."},
-    ],
-    "카테고리2": [
-        {"질문": "질문 2-1", "답변": "답변 2-1입니다."},
-        {"질문": "질문 2-2", "답변": "답변 2-2입니다."},
-    ],
-    "카테고리3": [
-        {"질문": "질문 3-1", "답변": "답변 3-1입니다."},
-        {"질문": "질문 3-2", "답변": "답변 3-2입니다."},
-    ],
-}
 
-for i, (tab,faq_list) in enumerate(zip(tabs,faqs.values())):
+# 카테고리별로 질문과 답변 구성
+faq_dict = {}
+if category_faq_list:
+    for row in category_faq_list:
+        category = row[1]
+        question = row[2]
+        answer = row[3]
+        if category not in faq_dict:
+            faq_dict[category]=[]
+        faq_dict[category].append((question,answer))
+# 카테고리 탭 생성
+categories = list(faq_dict.keys())
+tabs = st.tabs(list(categories))
+# 각 탭에 카테고리별 질문 및 답변 노출
+for i,tab in enumerate(tabs):
     with tab:
-        for faq in faq_list:
-            with st.expander(faq['질문']):
-                st.write(faq['답변'])
+        category = categories[i]  # 현재 탭의 카테고리 이름
+        if category in faq_dict:
+            for question, answer in faq_dict[category]:
+                with st.expander(question):
+                    st.write(answer)  # 질문을 클릭하면 답변이 표시됨
+        else:
+            st.error(f'{category} 카테고리에 대한 데이터가 없습니다.')
