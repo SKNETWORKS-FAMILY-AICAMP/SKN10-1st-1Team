@@ -89,7 +89,7 @@
 <table>
   
   <tr>
-    <td>뭐라하지</td>
+    <td>사용한 기술</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
@@ -110,11 +110,11 @@
 # 화면 설계서
 -
 
-<img src="https://github.com/user-attachments/assets/7ea07c72-9147-4d16-b4a8-4e4d70b7db9e"/>
+<img src="https://github.com/user-attachments/assets/8a4b27b3-f7a7-46a4-98a1-4e0d78df1223"/>
 <br><br><br>
-<img src="https://github.com/user-attachments/assets/b2d11e5a-a1f0-4c3e-8a88-108aa891826d"/>
+<img src="https://github.com/user-attachments/assets/b1f0c8e0-0372-459f-9048-5c8c935de863"/>
 <br><br><br>
-<img src="https://github.com/user-attachments/assets/9ecf6c9c-a381-4572-8809-c9d3504137f9"/>
+<img src="https://github.com/user-attachments/assets/4a43c72d-d4b7-4027-a15d-fb6f0fec5e81"/>
 
 <br><br><br>
 
