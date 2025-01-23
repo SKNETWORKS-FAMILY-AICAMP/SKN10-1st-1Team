@@ -29,7 +29,7 @@
     <tr>
       <td align="center">
         <div>
-          <img src=""width="180px";/>
+          <img src="https://github.com/user-attachments/assets/069b9d24-66dd-465f-92cb-dfe5a38ba0d0"width="180px";/>
         </div>
       </td>
       <td align="center">
@@ -44,7 +44,7 @@
     <tr>
      <td align="center"> 팀장 </td>
      <td align="center"> 화면설계 </td>
-     <td align="center"> Streamlit </td>
+     <td align="center"> FAQ 화면 구현</td>
     </tr>
     
   </tbody>
@@ -75,8 +75,8 @@
     </tr>
     <tr>
      <td align="center"> ERD,DB</td>
-     <td align="center"> Streamlit </td>
-     <td align="center"> crawling </td>
+     <td align="center"> 등록현황 화면구현 </td>
+     <td align="center"> crawling,DB </td>
     </tr>
   </tbody>
 </table>
@@ -102,7 +102,7 @@
 
 # ERD
 -
-<img src="https://github.com/user-attachments/assets/e9768c03-d588-4c1c-bef1-a21aebf4ddec"/>
+<img src="https://github.com/user-attachments/assets/12181502-bd5a-47fa-919b-60a870767458"/>
 
 <br><br><br>
 
