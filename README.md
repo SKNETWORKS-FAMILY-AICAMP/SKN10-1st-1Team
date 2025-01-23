@@ -102,7 +102,7 @@
 
 # ERD
 -
-<img src="https://github.com/user-attachments/assets/e9768c03-d588-4c1c-bef1-a21aebf4ddec"/>
+<img src="https://github.com/user-attachments/assets/b6fa1299-1bee-4a11-8a2b-5a2fbb946544"/>
 
 <br><br><br>
 
