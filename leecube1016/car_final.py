@@ -6,7 +6,7 @@ from matplotlib.ticker import FuncFormatter
 
 # 한글 폰트 설정
 plt.rcParams['font.family'] = 'Malgun Gothic'
-plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['axes.unicode_minus'] = False 
 
 # 데이터베이스 연결 설정
 db_config = {
