@@ -44,7 +44,7 @@
     <tr>
      <td align="center"> 팀장 </td>
      <td align="center"> 화면설계 </td>
-     <td align="center"> Streamlit </td>
+     <td align="center"> FAQ 화면 구현</td>
     </tr>
     
   </tbody>
@@ -75,8 +75,8 @@
     </tr>
     <tr>
      <td align="center"> ERD,DB</td>
-     <td align="center"> Streamlit </td>
-     <td align="center"> crawling </td>
+     <td align="center"> 등록현황 화면구현 </td>
+     <td align="center"> crawling,DB </td>
     </tr>
   </tbody>
 </table>
