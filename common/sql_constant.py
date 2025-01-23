@@ -7,5 +7,5 @@ class SELECT_SQLs(enum.Enum):
 
     # 2.검색 단어와 유사한 질의응답 뽑아내기
     SIMILAR_DATA = (enum.auto(),
-                    """select * from faq like %{search_word}%??""",
+                    """select * from faq like %s""",
                     "검색단어와 유사한 질의응답 뽑아내기")
