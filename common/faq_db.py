@@ -42,4 +42,3 @@ class Faq_Query:
             'answer':f"%{search_word}%"
         }
         return self._execute_query(sql_constant.value[1], params)
->>>>>>> origin/feature-jennyjo
