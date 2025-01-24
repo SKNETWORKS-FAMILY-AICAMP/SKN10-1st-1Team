@@ -11,9 +11,9 @@ plt.rcParams['axes.unicode_minus'] = False
 # 데이터베이스 연결 설정
 db_config = {
     "host": "localhost",
-    "user": "team",
+    "user": "dreamteam",
     "password": "1234",
-    "database": "자동차현황",
+    "database": "자동차현황DB",
     "port": 3306,
 }
 
@@ -51,7 +51,7 @@ if conn is not None:
         # SQL 쿼리 실행
         sql = f"""
             SELECT 등록연도, SUM(등록대수) AS 등록대수
-            FROM 차종등록현황2
+            FROM 차종등록현황
             WHERE 등록연도 BETWEEN {start_year} AND {end_year}
             GROUP BY 등록연도
             ORDER BY 등록연도

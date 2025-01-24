@@ -12,8 +12,6 @@
 
 ### 프로젝트 소개 : 
 
-### 프로젝트 ppt : 
-
 
 <br><br><br>
 
@@ -29,7 +27,7 @@
     <tr>
       <td align="center">
         <div>
-          <img src=""width="180px";/>
+          <img src="https://github.com/user-attachments/assets/069b9d24-66dd-465f-92cb-dfe5a38ba0d0"width="180px";/>
         </div>
       </td>
       <td align="center">
@@ -44,7 +42,7 @@
     <tr>
      <td align="center"> 팀장 </td>
      <td align="center"> 화면설계 </td>
-     <td align="center"> Streamlit </td>
+     <td align="center"> FAQ 화면 구현</td>
     </tr>
     
   </tbody>
@@ -75,8 +73,8 @@
     </tr>
     <tr>
      <td align="center"> ERD,DB</td>
-     <td align="center"> Streamlit </td>
-     <td align="center"> crawling </td>
+     <td align="center"> 등록현황 화면구현 </td>
+     <td align="center"> crawling,DB </td>
     </tr>
   </tbody>
 </table>
@@ -102,29 +100,32 @@
 
 # ERD
 -
-<img src="https://github.com/user-attachments/assets/e9768c03-d588-4c1c-bef1-a21aebf4ddec"/>
+<img src="https://github.com/user-attachments/assets/12181502-bd5a-47fa-919b-60a870767458"/>
 
 <br><br><br>
 
+# 수집 데이터 출처 및 수집 방법
 
 # 화면 설계서
 -
 
 <img src="https://github.com/user-attachments/assets/8a4b27b3-f7a7-46a4-98a1-4e0d78df1223"/>
 <br><br><br>
-<img src="https://github.com/user-attachments/assets/b1f0c8e0-0372-459f-9048-5c8c935de863"/>
+<img src="https://github.com/user-attachments/assets/9ebc082c-6a55-4ff3-b6e9-fb894072ebcd"/>
 <br><br><br>
 <img src="https://github.com/user-attachments/assets/4a43c72d-d4b7-4027-a15d-fb6f0fec5e81"/>
 
 <br><br><br>
 
 # 실제 화면
--
-<img src=""/>
+
+![FAQ페이지구현](https://github.com/user-attachments/assets/b4d49c5e-0eac-4ee2-ab64-3995debbccfe)
 <br><br><br>
 <img src=""/>
 <br><br><br>
 <img src=""/>
+
+# 개발과정에서 발생한 이슈 및 해결방법
 
 
 # 회고
@@ -140,6 +141,5 @@
 
 권석현 :
 
-조현정 :
-
+조현정 : 프론트엔드 쪽으로는 일해본 적이 없어서 생소했지만, 노션을 쓴다고 생각하면서 하니 어느정도 감은 왔었다. DB도 Debeaver에서 SELECT문만 해봤지 그 이상을 해 본적이 없어서 직접 DB, table 생성 및 python으로 DB 연결하여 화면으로 구현하는 것 자체가 아예 처음이라 조금 헤맸던 것 같다. 결국엔 지피티의 도움으로 상당부분을 완성했었지만, 나중에 비슷한 업무를 맡을 때 훨씬 수월하게 할 수 있을 것 같다. 또한 팀원간의 소통이 매우 중요하다고 여긴 것이, 합의된 지점이 없으면 결국엔 같은 업무를 맡는다고 하더라도 다른 결과물이 나올 수 있다는 것을 알 수 있었다. 각자의 업무 내용, 코딩 스타일 등을 맞춰 나가는 것이 중요한 것 같다. 다음 프로젝트에서는 더 긴밀한 소통으로 완성시키고 싶다.  
 기한정 : 
