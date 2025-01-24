@@ -46,7 +46,7 @@ location_coords = {
 }
 
 # Streamlit 앱 제목
-st.title('대한민국 지역별 등록대수 히트맵')
+st.title('지역별 자동차 등록대수')
 
 # 데이터베이스 연결
 conn = get_db_connection()
@@ -63,10 +63,10 @@ if conn is not None:
     # 등록대수 합계 및 비율 계산
     total_count = filtered_df['등록대수'].sum()
     filtered_df['비율(%)'] = (filtered_df['등록대수'] / total_count * 100).round(2)
-
+    filtered_df = filtered_df.sort_values(by=['비율(%)'],ascending=False)
     # 인덱스 제거
     filtered_df = filtered_df[['지역명', '등록대수', '비율(%)']].reset_index(drop=True)
-
+    
     # Folium 지도 설정 (서울을 중심으로 설정)
     m = folium.Map(location=[36.5, 127.5], zoom_start=7)
 
