@@ -1,16 +1,20 @@
 Use mysql;                        -- 계정생성 및 권한부여
 Create user 'dreamteam'@'%'
     identified by '1234';
-
+create user 'faq_user'@'%'
+    identified by 'faq1234';
 Select * from user;
 
-drop database 자동차현황DB;
+drop database if exists 자동차현황DB;
 CREATE DATABASE 자동차현황DB;
-
+CREATE DATABASE faq_db;
 grant all privileges
     on 자동차현황DB.*
     to 'dreamteam'@'%';
 
+grant all privileges
+    on faq_db.*
+    to 'faq_user'@'%';
 USE 자동차현황DB;
 
 CREATE TABLE 차종등록현황 (
@@ -39,9 +43,10 @@ CREATE TABLE 종합관리 (
     UNIQUE KEY (차종ID, 지역ID, 등록연도)   -- 복합 고유 키
 );
 
-CREATE TABLE faq (
-    id INT AUTO_INCREMENT PRIMARY KEY,  -- Auto-increment primary key
-    category VARCHAR(20) NOT NULL,
-    question TEXT NOT NULL,             -- Question column
-    answer TEXT NOT NULL                -- Answer column
+USE faq_db;
+CREATE TABLE faq_category (
+    category_id INT AUTO_INCREMENT PRIMARY KEY,  -- Auto-increment primary key
+    category VARCHAR(20) NOT NULL,     -- Category column
+    question TEXT NOT NULL,            -- Question column
+    answer TEXT NOT NULL               -- Answer column
 );
