@@ -11,9 +11,9 @@ plt.rcParams['axes.unicode_minus'] = False     # 한글 폰트 사용 시 마이
 # 데이터베이스 연결 설정
 db_config = {
     "host": "localhost",
-    "user": "team",
+    "user": "dreamteam",
     "password": "1234",
-    "database": "자동차현황",
+    "database": "자동차현황DB",
     "port": 3306,
 }
 
@@ -26,7 +26,7 @@ st.title("📊 자동차 등록현황 보고")
 
 # 데이터베이스 연결 및 데이터 로드
 conn = get_db_connection()
-sql = "SELECT 등록연도, 등록대수 FROM 차종등록현황2"
+sql = "SELECT 등록연도, 등록대수 FROM 차종등록현황"
 df = pd.read_sql(sql, conn)
 conn.close()
 
