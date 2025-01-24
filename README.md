@@ -94,7 +94,6 @@
 <table>
   
   <tr>
-    <td>사용한 기술</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
@@ -160,16 +159,17 @@
 
  - 원유형 
 > 머라
-<br>
+
+
 - 이서영
 > 화면 설계를 담당하면서 화면 구현에서 문제가 생기지 않도록 실제 streamlit에서 구현 가능한 위젯을 조사하고 설계하는 것이 중요하다고 느꼈습니다. 
 또한, 화면 설계 결과물에서 지속적으로 수정할 부분이 발견되어 화면 설계서가 몇차례 업데이트 해야하는 상황이 발생하였습니다. 
 따라서 앞으로는 조금 더 꼼꼼히 확인한 후 제출해야겠다라는 생각이 들었습니다.
-<br>
+
 - 정소열 
 > 처음 도전하는 분야라 많은 어려움이 있었지만, 팀원들과 함께 협력하며 문제를 하나씩 해결해 나가는 과정에서 성장을 경험할 수 있었습니다. 
 수업을 통해 배운 지식을 실제로 적용해보며 새로운 기술과 도구에 대한 자신감을 키울 수 있었던 값진 경험이었습니다.
-<br>
+
 - 권석현 
 <br>
 <br>
