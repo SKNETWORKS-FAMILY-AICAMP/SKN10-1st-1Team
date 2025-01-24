@@ -103,7 +103,7 @@
 ## 📎 자동차등록대수현황_연도별 
 <img src="https://github.com/user-attachments/assets/4206a0c4-bb24-4679-b2f1-512b39636da9"/>
 - 2015~ 2024년의 연도별 차종, 용도, 차량 등록 대수를 기록한 데이터
-- 원본 데이터 링크 : [kosis](https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3Flist_id%3DM2_18%26obj_var_id%3D%26seqNo%3D%26tblId%3DDT_MLTM_5498%26vw_cd%3DMT_ZTITLE%26orgId%3D116%26path%3D%252FstatisticsList%252FstatisticsListIndex.do%26conn_path%3DMT_ZTITLE%26itm_id%3D%26lang_mode%3Dko%26scrId%3D%26)
+- 원본 데이터 링크 : [kosis](http://bit.ly/42uXtVp)
 
 ## 📎 시도별자동차등록현황
 <img src="https://github.com/user-attachments/assets/2571bfbe-dc57-4390-a263-cd4bb1a4f14f"/>
