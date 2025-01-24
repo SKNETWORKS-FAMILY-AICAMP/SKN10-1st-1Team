@@ -88,7 +88,7 @@
 
 # 🛠 기술 스택
 
-<table>
+<table style="border:none;">
   
   <tr>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
