@@ -8,9 +8,9 @@ import pymysql
 # 데이터베이스 연결 설정
 db_config = {
     "host": "localhost",
-    "user": "team",
+    "user": "dreamteam",
     "password": "1234",
-    "database": "자동차현황",
+    "database": "자동차현황DB",
     "port": 3306,
 }
 
@@ -53,7 +53,7 @@ conn = get_db_connection()
 
 if conn is not None:
     # 데이터 불러오기
-    query = "SELECT * FROM 지역등록현황2"
+    query = "SELECT * FROM 지역등록현황"
     df = pd.read_sql(query, conn)
 
     # 선택한 연도에 맞는 데이터 필터링
