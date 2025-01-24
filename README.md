@@ -120,7 +120,7 @@
 
 # 실제 화면
 
-![FAQ페이지구현](https://github.com/user-attachments/assets/d96a5292-e6c3-46fa-a0ac-35d50affa5e6)
+![FAQ페이지구현](https://github.com/user-attachments/assets/b4d49c5e-0eac-4ee2-ab64-3995debbccfe)
 <br><br><br>
 <img src=""/>
 <br><br><br>
