@@ -106,9 +106,9 @@
 ## 자동차등록대수현황_연도별 
 <img src="https://github.com/user-attachments/assets/4206a0c4-bb24-4679-b2f1-512b39636da9"/>
 - 2015~ 2024년의 연도별 차종, 용도, 차량 등록 대수를 기록한 데이터
-- 원본 데이터 링크 : 
-[KOSIS](https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3Flist_id%3DM2_18%26obj_var_id%3D%26seqNo%3D%26tblId%3DDT_MLTM_5498%26vw_cd%3DMT_ZTITLE%26orgId%3D116%26path%3D%252FstatisticsList%252FstatisticsListIndex.do%26conn_path%3DMT_ZTITLE%26itm_id%3D%26lang_mode%3Dko%26scrId%3D%26)
+- 원본 데이터 링크 : [kosis](https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3Flist_id%3DM2_18%26obj_var_id%3D%26seqNo%3D%26tblId%3DDT_MLTM_5498%26vw_cd%3DMT_ZTITLE%26orgId%3D116%26path%3D%252FstatisticsList%252FstatisticsListIndex.do%26conn_path%3DMT_ZTITLE%26itm_id%3D%26lang_mode%3Dko%26scrId%3D%26)
 
+[naver](https://naver.com/)
 ## 시도별자동차등록현황
 <img src="https://github.com/user-attachments/assets/2571bfbe-dc57-4390-a263-cd4bb1a4f14f"/>
 - 2013~ 2022년의 연도별, 시도별, 차량 등록 대수를 기록한 데이터
@@ -171,11 +171,9 @@
 수업을 통해 배운 지식을 실제로 적용해보며 새로운 기술과 도구에 대한 자신감을 키울 수 있었던 값진 경험이었습니다.
 
 - 권석현 
-<br>
-<br>
-<br>
+> 404 NOT FOUND
 - 조현정  
 > 프론트엔드 쪽으로는 일해본 적이 없어서 생소했지만, 노션을 쓴다고 생각하면서 하니 어느정도 감은 왔었다. DB도 Debeaver에서 SELECT문만 해봤지 그 .>이상을 해 본적이 없어서 직접 DB, table 생성 및 python으로 DB 연결하여 화면으로 구현하는 것 자체가 아예 처음이라 조금 헤맸던 것 같다. 결국엔 >지피티의 도움으로 상당부분을 완성했었지만, 나중에 비슷한 업무를 맡을 때 훨씬 수월하게 할 수 있을 것 같다. 또한 팀원간의 소통이 매우 중요하다고 >여긴 것이, 합의된 지점이 없으면 결국엔 같은 업무를 맡는다고 하더라도 다른 결과물이 나올 수 있다는 것을 알 수 있었다. 각자의 업무 내용, 코딩 >스타일 등을 맞춰 나가는 것이 중요한 것 같다. 다음 프로젝트에서는 더 긴밀한 소통으로 완성시키고 싶다.  
-<br>
+
 - 기한정  
 > 프로젝트에서 크롤링을 하면서 애로사항이 많았는데 그 과정에서 많은 것을 배울 수 있었습니다. 맨처음에 BeutifulSoup으로 긁어올 땐 데이터 수가 엄청 적어서 뭐가 문제지 하면서 계속 html 코드를 보고, 구조를 보면서, 알맞는 class name을 찾고 동적 크롤링으로 코드를 변경하여 모든 페이지와 카테고리의 질문들을 가져올 수 있었습니다. 끊임없이 고민하는 과정들을 통해 많이 배운것 같습니다.
