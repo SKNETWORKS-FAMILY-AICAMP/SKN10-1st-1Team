@@ -107,7 +107,7 @@
 
 # 화면 설계서
 
-<img src="https://github.com/user-attachments/assets/8a4b27b3-f7a7-46a4-98a1-4e0d78df1223"/>
+<img src="https://github.com/user-attachments/assets/210bed86-763d-413d-b990-0882c25962a1"/>
 <br><br><br>
 <img src="https://github.com/user-attachments/assets/9ebc082c-6a55-4ff3-b6e9-fb894072ebcd"/>
 <br><br><br>
@@ -119,9 +119,13 @@
 
 ![FAQ페이지구현](https://github.com/user-attachments/assets/b4d49c5e-0eac-4ee2-ab64-3995debbccfe)
 <br><br><br>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/ba44a689-9b4d-4aea-b431-40d0006ff978"/>
 <br><br><br>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/ba7b90bf-c376-45d9-ab93-ff9aa9f289ed"/>
+<br><br><br>
+<img src="https://github.com/user-attachments/assets/4532d6ea-60ed-460c-96d3-5635d6e87b88"/>
+<br><br>
+
 
 # 개발과정에서 발생한 이슈 및 해결방법
 - ERD 및 DB를 담당하셨던 분이 화면 구현 담당자에게 넘겨주셨을 때, 화면 구현 담당자가 table생성을 새로 insert 문으로 해야하는 줄 알고 헤매다가, csv로 간단하게 table 생싱이 가능하다는 것을 알고 문제를 해결하였다.
