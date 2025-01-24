@@ -120,7 +120,7 @@
 
 # 실제 화면
 -
-<img src=""/>
+<img src=![image](https://github.com/user-attachments/assets/d96a5292-e6c3-46fa-a0ac-35d50affa5e6)/>
 <br><br><br>
 <img src=""/>
 <br><br><br>
