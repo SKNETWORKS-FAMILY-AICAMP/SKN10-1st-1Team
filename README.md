@@ -99,6 +99,17 @@
   </tr>  
 </table><br><br>
 
+
+# 📄 화면 설계서
+
+<img src="https://github.com/user-attachments/assets/210bed86-763d-413d-b990-0882c25962a1"/>
+<br><br><br>
+<img src="https://github.com/user-attachments/assets/9ebc082c-6a55-4ff3-b6e9-fb894072ebcd"/>
+<br><br><br>
+<img src="https://github.com/user-attachments/assets/4a43c72d-d4b7-4027-a15d-fb6f0fec5e81"/>
+
+<br><br><br>
+
 # 🔍 수집 데이터
 ## 📎 자동차등록대수현황_연도별 
 <img src="https://github.com/user-attachments/assets/4206a0c4-bb24-4679-b2f1-512b39636da9"/>
@@ -121,16 +132,6 @@
 
 <br><br><br>
 
-
-# 📄 화면 설계서
-
-<img src="https://github.com/user-attachments/assets/210bed86-763d-413d-b990-0882c25962a1"/>
-<br><br><br>
-<img src="https://github.com/user-attachments/assets/9ebc082c-6a55-4ff3-b6e9-fb894072ebcd"/>
-<br><br><br>
-<img src="https://github.com/user-attachments/assets/4a43c72d-d4b7-4027-a15d-fb6f0fec5e81"/>
-
-<br><br><br>
 
 # 💻 실제 화면
 
